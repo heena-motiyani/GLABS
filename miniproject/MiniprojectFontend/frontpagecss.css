@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+}
+
+.logo{
+   font-size:60px;
+    border: 1px solid rgba(95, 253, 95, 0.77);
+    background-image: linear-gradient(to right,rgba(56, 203, 62, 0.8),rgba(0, 253, 0, 0.36),rgba(56, 203, 62,0.8));
+    width:300px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-top:30px;
+}
+ .tag1{
+    position: absolute;
+    top:70px;
+    left:650px;
+    font-size: 30px;
+    color: #07f007;
+}
+ .tag2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #0eba0e;
+}
+.display1{
+    border: 1px solid white;
+    position: relative;
+    top:60px;
+    overflow: hidden;
+    height: 70vh;
+    margin: 0 40px;
+    box-shadow: 0px 5px 8px #bcbaba,
+        0px 5px 8px white, 0px 5px 8px #bcbaba ;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.display1 .menu{
+    width:100%;
+
+
+}
+.display1 .menu ul{
+    display: inline-flex;
+    float: right;
+    list-style: none;
+    margin-right: 140px;
+
+}
+.display1 .menu ul li{
+    padding: 20px;
+
+}
+.display1 .menu ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #088d36;
+}
+ .bus{
+    position: absolute;
+    top:8px;
+     font-size:25px;
+     color:  #07f007;
+     margin-left: 250px;
+
+}
+.providers{
+    font-size: 45px;
+    color:#0eba0e;
+}
+.busimage{
+    background-image: url(All%20Setra%20Wallpaper%20HD.jpg);
+    height:60vh;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    top:75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.message{
+    background-color:rgba(160, 247, 121, 0.69);
+    height:200px;
+    width:200px;
+    box-sizing: border-box;
+    padding: 45px 20px;
+    position: absolute;
+    left:250px;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.display2{
+    border: 1px solid white;
+    position: relative;
+    top:58px;
+    overflow: hidden;
+    height: 250vh;
+    margin: 0 40px;
+    box-shadow: 0px 5px 8px #bcbaba,
+        0px 5px 8px #bcbaba, 0px 5px 8px #bcbaba;
+    box-sizing: border-box;
+
+
+
+}
+.container2{
+    position: relative;
+    width:760px;
+    height: 230px;
+}
+.box2{
+    background-color: rgba(0,0,0,.7);
+    height:230px;
+    width:400px;
+    position: absolute;
+    left:600px;
+
+}
+.image1{
+    position: absolute;
+    left:-340px;
+    width:360px;
+    height:230px;
+}
+.box2 .information{
+    position: absolute;
+    left:61px;
+    height:100px;
+    color: white;
+    font-size: 20px;
+}
+.services{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.services ul{
+display:inline-flex;
+    list-style: none;
+    position: absolute;
+    left: 60px;
+    top:30px;
+
+}
+.services ul li a{
+    padding: 100px;
+    text-decoration: none;
+    font-size: 160px;
+    color: rgba(160, 247, 121, 0.99);
+    font-family: 'Rancho', cursive;
+
+}
+.services ul li:hover{
+    transform: scale(1.5);
+}
+.interior{
+    position: relative;
+    top:260px;
+    width: 100%;
+}
+
+
+.interior img
+{
+     background-size: cover;
+    background-repeat: no-repeat;
+    width:65%;
+    height:500px;
+    float: right;
+
+}
+.interior .interior3{
+    width:35%;
+}
+.message2{
+    background-color:rgba(160, 247, 121, 0.83);
+    height:250px;
+    width:200px;
+    box-sizing: border-box;
+    padding: 80px 11px;
+    position: absolute;
+    left:500px;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.message3{
+    height: 250px;
+    width:750px;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top:250px;
+    left:700px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 95px;
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.contactus img{
+    height:350px;
+    width:60%;
+
+    background-size: cover;
+    position: absolute;
+    top:1000px;
+}
+.contact{
+    background-color: black;
+    height:350px;
+    width:41%;
+    position: absolute;
+    top:1000px;
+    left:850px;
+
+}
+.contact p{
+    font-size: 19px;
+}
+.display2 .aboutus{
+    
+    height:600px;
+    width: 100%;
+    position: absolute;
+    top:1360px;
+    
+    
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 12;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    font-size:27px;
+    font-family: monospace;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
